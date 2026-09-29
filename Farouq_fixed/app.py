@@ -20,12 +20,12 @@
 #     missing.append('OPENROUTER_API_KEY أو OPENAI_API_KEY')
 # if missing:
 #     st.warning('إعدادات مطلوبة قبل الاستخدام: ' + '، '.join(missing))
-#     st.caption('للتشغيل المحلي: انسخي .env.example إلى .env وضعي مفاتيح جديدة. '
-#                'على Streamlit Cloud: أضيفي القيم نفسها في Secrets.')
+#     st.caption('للتشغيل المحلي: انسخ .env.example إلى .env وضع مفاتيح جديدة. '
+#                'على Streamlit Cloud: أضيف القيم نفسها في Secrets.')
 
 # with st.form('news_check'):
 #     query = st.text_area(
-#         'اكتبي الخبر أو الادعاء أو الموضوع:',
+#         'اكتب الخبر أو الادعاء أو الموضوع:',
 #         placeholder='مثلًا: هل صدر قرار جديد بشأن ...؟',
 #         height=120,
 #     )
@@ -80,12 +80,12 @@ with tab1:
         missing.append('OPENROUTER_API_KEY أو OPENAI_API_KEY')
     if missing:
         st.warning('إعدادات مطلوبة قبل الاستخدام: ' + '، '.join(missing))
-        st.caption('للتشغيل المحلي: انسخي .env.example إلى .env وضعي مفاتيح جديدة. '
-                   'على Streamlit Cloud: أضيفي القيم نفسها في Secrets.')
+        st.caption('للتشغيل المحلي: انسخ .env.example إلى .env وضع مفاتيح جديدة. '
+                   'على Streamlit Cloud: أضيف القيم نفسها في Secrets.')
 
     with st.form('news_check'):
         query = st.text_area(
-            'اكتبي الخبر أو الادعاء أو الموضوع:',
+            'اكتب الخبر أو الادعاء أو الموضوع:',
             placeholder='مثلًا: هل صدر قرار جديد بشأن ...؟',
             height=120,
         )
