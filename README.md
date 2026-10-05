@@ -30,7 +30,7 @@ Farouq is a Streamlit web app that helps users verify news claims, with a focus 
 | Config | python-dotenv |
 
 ##  Project Structure
-
+```
 GCE/
 ├── README.md
 └── Farouq_fixed/
